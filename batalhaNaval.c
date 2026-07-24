@@ -5,6 +5,22 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    #include <stdio.h>
+
+int main(){
+	int index;
+	char * tabuleiroBatalhaNaval [3] [3] = {
+	{"navio jack", "navio jason","navio john", "navio james","navio jhonatan"},
+	{"navio1", "navio2","navio3""navio4","navio5"},
+	{"navio6","navio7","navio8","navio9" "navio10"}
+	
+	};
+	
+	printf("para o navio jack,posição vertical");
+	printf("para o navio3, posição horizontal");
+	printf("para o navio jack, mantenha na coordenada [1][2]")
+	
+	return 0;
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
@@ -36,5 +52,4 @@ int main() {
     // 1 1 1 1 1
     // 0 0 1 0 0
 
-    return 0;
 }
